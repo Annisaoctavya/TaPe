@@ -1,0 +1,99 @@
+.container img {
+    height: 140px;
+    width: 220px;
+}
+
+.container a {
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.nav-link {
+    color: #7fdbda;
+}
+
+.col-lg-4 p {
+    margin-left: 150px;
+    text-align: center;
+    font-size: 18px;
+    color: #7fdbda;
+    font-weight: 200px;
+}
+
+.col-lg-4 button {
+    margin-left: 212px;
+    border-radius: 20px;
+    font-size: large;
+}
+
+.col-lg-8 img {
+    height: auto;
+    width: auto;
+}
+
+.world img {
+    height: 650px;
+    width: 1205px;
+}
+
+.logo img {
+    margin-top: 25px;
+}
+
+
+.btn-success {
+    width: 80px;
+}
+
+.img-fluid {
+    width: 100px;
+    height: 100px;
+
+}
+
+body {
+    font-family: "Lato", sans-serif;
+}
+
+.main {
+    margin-left: 160px;
+    /* Same as the width of the sidenav */
+    /* Increased text to enable scrolling */
+    padding: 0px 10px;
+}
+
+
+.col-sm-4 {
+    text-align: center;
+}
+
+.col-sm-4 p,
+li {
+    text-align: justify;
+}
+
+.isi p {
+    text-align: center;
+}
+
+.head p {
+    text-align: center;
+}
+
+.col-sm-11 input {
+    width: 500px;
+    margin-top: 30px;
+}
+
+.col-sm-1 label {
+    margin-top: 30px;
+}
+
+.col-sm-10 input {
+    width: 500px;
+    margin-top: 30px;
+}
+
+.col-sm-2 label {
+    margin-top: 30px;
+}

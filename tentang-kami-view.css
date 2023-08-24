@@ -1,0 +1,199 @@
+@import url('https://css.gg/play-track-next.css');
+@import url('https://css.gg/play-track-prev.css');
+
+.container img {
+    height: 140px;
+    width: 220px;
+}
+
+.container a {
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.nav-link {
+    color: #7fdbda;
+}
+
+.col-lg-4 p {
+    margin-left: 150px;
+    text-align: center;
+    font-size: 18px;
+    color: #7fdbda;
+    font-weight: 200px;
+}
+
+.col-lg-4 button {
+    margin-left: 212px;
+    border-radius: 20px;
+    font-size: large;
+}
+
+.col-lg-8 img {
+    height: auto;
+    width: auto;
+}
+
+.world img {
+    height: 650px;
+    width: 1205px;
+}
+
+.logo img {
+    margin-top: 25px;}
+
+
+/*FOOTER*/
+.footer-bs {
+    background-color: #3c3d41;
+    padding: 60px 40px;
+    color: rgba(255,255,255,1.00);
+    }
+    .footer-bs .footer-brand, .footer-bs .footer-nav, .footer-bs .footer-social, .footer-bs .footer-ns { padding:10px 25px; }
+    .footer-bs .footer-nav, .footer-bs .footer-social, .footer-bs .footer-ns { border-color: transparent; }
+    .footer-bs .footer-brand h2 { margin:0px 0px 10px; }
+    .footer-bs .footer-brand p { font-size:12px; color:rgba(255,255,255,0.70); }
+    
+    .footer-bs .footer-nav h4 {
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    }
+    .footer-bs .footer-nav ul.list { list-style:none; padding:0px; }
+    .footer-bs .footer-nav ul.list li { padding:5px 0px;}
+    .footer-bs .footer-nav ul.list a { color:rgba(255,255,255,0.80); }
+    .footer-bs .footer-nav ul.list a:hover { color:rgba(255,255,255,0.60); text-decoration:none; }
+    .footer-bs .footer-social ul { list-style:none; padding:0px; }
+    .footer-bs .footer-social h4 {
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    }
+    .footer-bs .footer-social li { padding:5px 4px;}
+    .footer-bs .footer-social a { color:rgba(255,255,255,1.00);}
+    .footer-bs .footer-social a:hover { color:rgba(255,255,255,0.80); text-decoration:none; }
+    .footer-bs .footer-ns h4 {
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    }
+    .footer-bs .footer-ns p { font-size:12px; color:rgba(255,255,255,0.70); }
+    @media (min-width: 768px) {
+    .footer-bs .footer-nav, .footer-bs .footer-social, .footer-bs .footer-ns { border-left:solid 1px rgba(255,255,255,0.10); 
+      }
+    }
+    .btn-success{
+      width: 80px;
+    }
+    .img-fluid{
+      width: 100px;
+      height: 100px;
+    }
+    .form-log{
+        margin-top: 25px;
+        width: 1000px;
+        height: 410px;
+        border-radius: 30px;
+        padding:100px;
+        background-color: lightgray;
+        margin-left: 60px;
+    }
+ /* Your Review */
+    h1{
+        font-style: normal;
+        font-weight: bold;
+        font-family: suez one,serif;
+        font-size: 45px;
+        letter-spacing: 3px;
+    }
+    .container-fluid h1{
+        text-align: center;
+        padding: 20px;
+        background-color: #7EDBDB;
+    }
+    .btn-outline-dark:hover{
+        color: black;
+        border: 1px solid black ;
+       }
+        /* next */
+        .gg-play-track-next {
+            box-sizing: border-box;
+            position: relative;
+            display: block;
+            transform: scale(var(--ggs,1));
+            width: 3px;
+            height: 10px;
+            background: currentColor
+        }
+        .gg-play-track-next::after {
+            content: "";
+            display: block;
+            box-sizing: border-box;
+            position: absolute;
+            width: 0;
+            height: 10px;
+            border-top: 5px solid transparent;
+            border-bottom: 5px solid transparent;
+            border-left: 6px solid;
+            left: -7px
+        }
+         /* previous */
+        .gg-play-track-prev {
+            box-sizing: border-box;
+            position: relative;
+            display: block;
+            transform: scale(var(--ggs,1));
+            width: 3px;
+            height: 10px;
+            background: currentColor
+        }
+        .gg-play-track-prev::after {
+            content: "";
+            display: block;
+            box-sizing: border-box;
+            position: absolute;
+            width: 0;
+            height: 10px;
+            border-top: 5px solid transparent;
+            border-bottom: 5px solid transparent;
+            border-right: 6px solid;
+            right: -7px
+        }
+        .next:hover{
+            color:gray;
+        }
+        .previous:hover{
+            color:gray;
+        }
+        .tulisan:hover{
+            color: gray;
+        }
+        /* POP UP BG MODEL*/
+    .bg-modal{
+        width:1349px;
+        height: 1155px;
+        background-color:rgba(0,0,0,0.7);
+        position: absolute;
+        top: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .modal-content{
+        width: 500px;
+        height: 255px;
+        background-color: white;
+        border-radius: 5px;
+        text-align: center;
+        padding: 0px 20px 20px 20px;
+        margin-top: -150px;
+    }
+    .close{
+        position: absolute;
+        top: 0;
+        right: 14px;
+        font-size: 42px;
+        transform: rotate(45deg);
+        cursor: pointer;
+    }
+

@@ -1,0 +1,311 @@
+.container img {
+  height: 140px;
+  width: 220px;
+}
+
+.container a {
+  font-size: 20px;
+  margin-left: 10px;
+}
+
+.nav-link {
+  color: #7fdbda;
+}
+
+.col-lg-4 p {
+  margin-left: 150px;
+  text-align: center;
+  font-size: 18px;
+  color: #7fdbda;
+  font-weight: 200px;
+}
+
+.col-lg-4 button {
+  margin-left: 212px;
+  border-radius: 20px;
+  font-size: large;
+}
+
+.col-lg-8 img {
+  height: auto;
+  width: auto;
+}
+
+.world img {
+  height: 650px;
+  width: 1205px;
+}
+
+.logo img {
+  margin-top: 25px;
+}
+
+
+/*FOOTER*/
+.footer-bs {
+  background-color: #3c3d41;
+  padding: 60px 40px;
+  color: rgba(255, 255, 255, 1.00);
+}
+
+.footer-bs .footer-brand,
+.footer-bs .footer-nav,
+.footer-bs .footer-social,
+.footer-bs .footer-ns {
+  padding: 10px 25px;
+}
+
+.footer-bs .footer-nav,
+.footer-bs .footer-social,
+.footer-bs .footer-ns {
+  border-color: transparent;
+}
+
+.footer-bs .footer-brand h2 {
+  margin: 0px 0px 10px;
+}
+
+.footer-bs .footer-brand p {
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.70);
+}
+
+.footer-bs .footer-nav h4 {
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+.footer-bs .footer-nav ul.list {
+  list-style: none;
+  padding: 0px;
+}
+
+.footer-bs .footer-nav ul.list li {
+  padding: 5px 0px;
+}
+
+.footer-bs .footer-nav ul.list a {
+  color: rgba(255, 255, 255, 0.80);
+}
+
+.footer-bs .footer-nav ul.list a:hover {
+  color: rgba(255, 255, 255, 0.60);
+  text-decoration: none;
+}
+
+.footer-bs .footer-social ul {
+  list-style: none;
+  padding: 0px;
+}
+
+.footer-bs .footer-social h4 {
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+.footer-bs .footer-social li {
+  padding: 5px 4px;
+}
+
+.footer-bs .footer-social a {
+  color: rgba(255, 255, 255, 1.00);
+}
+
+.footer-bs .footer-social a:hover {
+  color: rgba(255, 255, 255, 0.80);
+  text-decoration: none;
+}
+
+.footer-bs .footer-ns h4 {
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+.footer-bs .footer-ns p {
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.70);
+}
+
+@media (min-width: 768px) {
+
+  .footer-bs .footer-nav,
+  .footer-bs .footer-social,
+  .footer-bs .footer-ns {
+    border-left: solid 1px rgba(255, 255, 255, 0.10);
+  }
+}
+
+.btn-success {
+  width: 80px;
+}
+
+.img-fluid {
+  width: 100px;
+  height: 100px;
+}
+
+.blockquote {
+  font-family: 'Quicksand';
+  font-size: 12pt;
+  padding: 20px;
+  width: 650px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 230px;
+
+  font-family: Quicksand;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 28px;
+  line-height: 41px;
+  text-align: center;
+  margin-left: 300px;
+}
+
+h1 {
+  font-style: normal;
+  font-weight: bold;
+  font-family: suez one, serif;
+  font-size: 45px;
+  letter-spacing: 3px;
+}
+
+.container-fluid h1 {
+  text-align: center;
+  padding: 20px;
+  background-color: #7EDBDB;
+}
+
+h2 {
+  font-family: 'Public Sains';
+}
+
+.container h2 {
+  text-align: center;
+  padding: 20px;
+  background-color: #7EDBDB;
+  letter-spacing: 2px;
+}
+
+p {
+  font-family: suez one, serif;
+}
+
+/* Terima kasih Anda telah berdonasi. Jika Anda ingin mendapatkan informasi lebih lanjut dengan seluruh layanan kami. Kalian dapat menghubungi dan bertanya apapun kepada kami melalui tombol di bawah ini */
+.col-md-6 {
+  width: 280px;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Button used to open the chat form - fixed at the bottom of the page */
+.open-button {
+  background-color: rgb(255, 255, 255);
+  color: #7fdbda;
+  padding: 16px 16px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+  position: fixed;
+  bottom: 23px;
+  right: 28px;
+  border-radius: 50%;
+  width: 64px;
+  height: 64px;
+  display: block;
+}
+
+/* The popup chat - hidden by default */
+.chat-popup {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  right: 15px;
+  border: 3px solid #f1f1f1;
+  z-index: 9;
+}
+
+/* Add styles to the form container */
+.form-container {
+  max-width: 300px;
+  padding: 10px;
+  background-color: white;
+}
+
+/* Full-width textarea */
+.form-container textarea {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+  resize: none;
+  min-height: 200px;
+}
+
+/* When the textarea gets focus, do something */
+.form-container textarea:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for the submit/send button */
+.form-container .btn {
+  background-color: #7fdbda;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom: 10px;
+  opacity: 0.8;
+}
+
+/* Add a red background color to the cancel button */
+.form-container .cancel {
+  background-color: red;
+}
+
+/* Add some hover effects to buttons */
+.form-container .btn:hover,
+.open-button:hover {
+  opacity: 1;
+}
+/* POP UP BG MODEL*/
+.bg-modal{
+  width:1349px;
+  height: 1155px;
+  background-color:rgba(0,0,0,0.7);
+  position: absolute;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.modal-content{
+  width: 500px;
+  height: 290px;
+  background-color: white;
+  border-radius: 5px;
+  text-align: center;
+  padding: 0px 20px 20px 20px;
+  margin-top: -400px;
+}
+.close{
+  position: absolute;
+  top: 0;
+  right: 14px;
+  font-size: 42px;
+  transform: rotate(45deg);
+  cursor: pointer;
+}

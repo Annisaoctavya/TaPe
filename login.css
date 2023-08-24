@@ -1,0 +1,68 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    font-family: sans-serif;
+    background-color: #7fdcda;
+    background-position: center;
+    background-size: cover;
+    padding-top: 200px;
+}
+
+.container {
+    padding-top: 0px;
+    padding-bottom: 290px;
+    text-align: center;
+}
+
+.col-lg-6 {
+    text-align: center;
+    color: white;
+    margin: auto;
+}
+
+.lg img {
+    height: 28px;
+    width: 30px;
+    float: left;
+    margin-left: 50px;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+
+.lg ::placeholder {
+    color: white;
+    opacity: 79%;
+}
+
+.lg input {
+    color: white;
+    background: none;
+    margin-top: 10px;
+    outline: none;
+    border: none;
+    border-bottom: 3px;
+}
+
+.lg .adung {
+    width: 210px;
+    border-radius: 40px;
+    margin-top: 20px;
+}
+
+.lg p {
+    margin-top: 15px;
+}
+
+.lg a {
+    margin-top: -10px;
+    color: inherit;
+    text-align: center;
+    color: black;
+}
+
+.input-group {
+    margin-left: 119px;
+    margin-top: 10px;
+    width: 235px;
+    background-color: transparent;
+}
